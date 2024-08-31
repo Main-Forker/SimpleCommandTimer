@@ -2,7 +2,6 @@ name: SimpleCommandTimer
 version: 2.0
 api-version: 1.19
 main: net.vertrauterdavid.timer.SimpleCommandTimer
-author: VertrauterDavid
-website: https://vertrauterdavid.net/ & https://github.com/vertrauterdavid/
+authors: [VertrauterDavid, Insolventer]
 
 softdepend: [PlaceholderAPI]

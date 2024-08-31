@@ -1,18 +1,24 @@
-# ---------------------------------------------------------------------------
-#
-#         Developed by VertrauterDavid
-#
-#         https://vertrauterdavid.net/
-#         https://github.com/VertrauterDavid/
-#
-# ---------------------------------------------------------------------------
+# This is the main configuration file for the SimpleCommandTimer plugin.
 
+# The 'Timers' section is used to define timers that will execute a command after a certain amount of time.
 Timers:
-  # Format: identifier: 'seconds;command'
+  # Each timer is defined by an identifier and a value.
+  # The value is a string in the format 'seconds;command'.
+  # 'seconds' is the interval in seconds after which the command will be executed.
+  # 'command' is the command that will be executed by the server console.
+
+  # For example, the 'hello' timer will make the server say 'hello' every 60 seconds.
   hello: '60;say hello'
+
+  # The 'keyall' timer will give all players a 'keyall' crate key every 3600 seconds (1 hour).
   keyall: '3600;crate key giveall keyall 1'
 
+# The 'Startup' section is used to define commands that will be executed after the server starts.
 Startup:
-  # Format: identifier: 'delay;command'
-  # delay <= 0: command will be executed immediately after the plugin has been loaded
+  # Each startup command is defined by an identifier and a value.
+  # The value is a string in the format 'delay;command'.
+  # 'delay' is the delay in seconds after the server starts when the command will be executed.
+  # 'command' is the command that will be executed by the server console.
+
+  # For example, the 'welcome' command will make the server say 'Welcome to the server!' 5 seconds after the server starts.
   welcome: '5;say Welcome to the server!'

@@ -1,19 +1,19 @@
 # SimpleCommandTimer
 
-[![download](https://img.shields.io/github/downloads/VertrauterDavid/SimpleCommandTimer/total?style=for-the-badge)](https://github.com/VertrauterDavid/SimpleCommandTimer/releases/latest)
-![license](https://img.shields.io/github/license/VertrauterDavid/SimpleCommandTimer?style=for-the-badge)
-![stars](https://img.shields.io/github/stars/VertrauterDavid/SimpleCommandTimer?style=for-the-badge)
-![forks](https://img.shields.io/github/forks/VertrauterDavid/SimpleCommandTimer?style=for-the-badge)
+[![download](https://img.shields.io/github/downloads/Insolventer/SimpleCommandTimer/total?style=for-the-badge)](https://github.com/Insolventer/SimpleCommandTimer/releases/latest)
+![license](https://img.shields.io/github/license/Insolventer/SimpleCommandTimer?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Insolventer/SimpleCommandTimer?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/Insolventer/SimpleCommandTimer?style=for-the-badge)
 
 <hr>
 
 ### Installation
-1. Download jar from [here](https://github.com/VertrauterDavid/SimpleCommandTimer/releases/latest)
+1. Download jar from [here](https://github.com/Insolventer/SimpleCommandTimer/releases)
 2. Put the jar in your plugins folder
 3. Restart your server (not reload)
 
 ### Update
-1. Download the new jar from [here](https://github.com/VertrauterDavid/SimpleCommandTimer/releases/latest)
+1. Download the new jar from [here](https://github.com/Insolventer/SimpleCommandTimer/releases/latest)
 2. Replace the old jar with the new one
 3. Delete the old `config.yml` and restart your server
 
